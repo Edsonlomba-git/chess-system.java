@@ -4,13 +4,13 @@ public class Position {
 	private Integer row;
 	private Integer column;
 
-	/*****************************************************/
+	/**********************	Constructors	******************************/
 	public Position(Integer row, Integer column) {
 		this.row = row;
 		this.column = column;
 	}
 
-	/****************************************************/
+	/**********************	Encapsulation	******************************/
 	public Integer getRow() {
 		return row;
 	}
